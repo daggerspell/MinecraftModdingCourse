@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Install Pandoc
         run: |
@@ -36,7 +38,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: convert syllabus DOCX to Markdown"
-          branch: ${{ github.ref_name }}
+          branch: main
           file_pattern: |
             docs/syllabus.md
             docs/images/**
