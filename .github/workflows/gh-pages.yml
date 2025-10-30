@@ -18,6 +18,13 @@ jobs:
         with:
           ref: main
 
+      - name: Debug: show mkdocs.yml and pip
+        run: |
+          echo "--- mkdocs.yml (first 120 lines) ---"
+          sed -n '1,120p' mkdocs.yml || type mkdocs.yml || true
+          echo "--- pip list (mkdocs*) ---"
+          pip list | grep -i mkdocs || true
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
