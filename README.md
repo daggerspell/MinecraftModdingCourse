@@ -13,9 +13,20 @@ This repo contains a MkDocs Material site for the course.
 
 ## GitHub Pages
 
+- This repo is public; GitHub Pages for public repos is free.
+- Project site URL (after deploy): https://daggerspell.github.io/MinecraftModdingCourse/
 - The workflow `.github/workflows/gh-pages.yml` is manual (`workflow_dispatch`).
 - When you’re ready to publish, run it from the Actions tab.
-- Before publishing, set `site_url`, `repo_url`, and `repo_name` in `mkdocs.yml`.
+- `mkdocs.yml` is already set with the repo and site URL.
+
+### Enable Pages (one-time setup)
+
+Option A — keep current workflow (peaceiris):
+- Settings → Pages → Build and deployment → Source: select "Deploy from a branch"
+- Branch: `gh-pages`, folder: `/` (the workflow will create `gh-pages` on first deploy)
+
+Option B — switch to official Pages action (optional):
+- Set Pages Source to "GitHub Actions" and use the official `deploy-pages` workflow instead of `peaceiris`.
 
 ## Content
 

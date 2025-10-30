@@ -1,9 +1,10 @@
 site_name: NeoForge 1.21.1 Modding Course
 site_description: A practical Minecraft modding course with NeoForge
-# TODO: set these before publishing
-site_url: https://YOUR_ORG.github.io/YOUR_REPO
-repo_url: https://github.com/YOUR_ORG/YOUR_REPO
-repo_name: YOUR_ORG/YOUR_REPO
+# Public project site URL (free on GitHub Pages for public repos)
+site_url: https://daggerspell.github.io/MinecraftModdingCourse/
+repo_url: https://github.com/daggerspell/MinecraftModdingCourse
+repo_name: daggerspell/MinecraftModdingCourse
+edit_uri: edit/main/docs/
 
 theme:
   name: material
