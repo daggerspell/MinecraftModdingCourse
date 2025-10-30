@@ -58,6 +58,7 @@ markdown_extensions:
 
 plugins:
   - search
+  - sitemap
 
 extra_css:
   - stylesheets/extra.css

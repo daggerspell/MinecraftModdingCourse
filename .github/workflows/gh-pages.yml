@@ -27,7 +27,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          pip install mkdocs-sitemap || true
+          pip install mkdocs-sitemap-plugin
 
       - name: Build site
         run: mkdocs build --strict
