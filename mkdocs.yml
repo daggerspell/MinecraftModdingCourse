@@ -58,8 +58,6 @@ markdown_extensions:
 
 plugins:
   - search
-  - sitemap:
-      priority: 0.5
 
 extra_css:
   - stylesheets/extra.css
