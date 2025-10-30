@@ -42,3 +42,16 @@ pandoc -s "NeoForge_1.21.1_Modding_Course_Syllabus_and_Outline.docx" -t gfm -o d
 ```
 
 Then tidy headings and add frontmatter as needed.
+
+### Convert via GitHub Actions (no local install)
+
+If you prefer not to install Pandoc locally:
+
+- Go to Actions → "Convert Syllabus DOCX" → Run workflow
+- This will:
+  - Install Pandoc on the runner
+  - Convert the DOCX to `docs/syllabus.md` with YAML frontmatter
+  - Extract any images into `docs/images/`
+  - Commit the results back to the current branch
+
+After it completes, preview locally with `mkdocs serve`.
