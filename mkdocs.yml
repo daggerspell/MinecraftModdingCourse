@@ -20,8 +20,6 @@ theme:
     - content.code.copy
     - content.tabs.link
     - header.autohide
-  logo: images/logo.svg
-  favicon: images/favicon.png
 
 nav:
   - Home: index.md
