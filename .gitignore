@@ -1,0 +1,14 @@
+# MkDocs build output
+site/
+
+# Python envs
+.venv/
+venv/
+env/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.code-workspace

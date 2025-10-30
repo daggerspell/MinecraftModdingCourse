@@ -1,0 +1,11 @@
+/* Custom tweaks for the course site. Update colors and branding here. */
+
+:root {
+  /* Example palette hooks (set to your branding later) */
+  --md-primary-fg-color: #2c5e4e;
+  --md-accent-fg-color: #e0b341;
+}
+
+.md-typeset .admonition {
+  border-radius: 6px;
+}
